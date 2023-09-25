@@ -1,0 +1,156 @@
+/* common UI elements */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* header elements */
+header {
+    background-color: #add8e6;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    background-color: #daa521;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    padding: 5px;
+}
+
+/* main elements */
+.block1 {
+    background-color: #00008b;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-block1 {
+    background-color: #ee81ee;
+    height: 350px;
+    width: 750px;
+}
+
+.block2 {
+    background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-block2-blue {
+    background-color: #1d90ff;
+    height: 350px;
+    width: 650px;
+}
+
+.item-block2-pink {
+    background-color: #ffbfcb;
+    height: 350px;
+    width: 400px;
+}
+
+.block3 {
+    background-color: #d3d3d3;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-block3-pink {
+    background-color: #ffbfcb;
+    height: 350px;
+    width: 400px;
+}
+
+.item-block3-blue {
+    background-color: #1d90ff;
+    height: 350px;
+    width: 650px;
+}
+
+.block4 {
+    background-color: #d3d3d3;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-block4 {
+    background-color: #238b21;
+    height: 700px;
+    width: 1060px;
+}
+
+.block5 {
+    background-color: #23272a;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-block5-pink {
+    background-color: #f08080;
+    height: 450px;
+    width: 353px;
+}
+
+.item-block5-blue {
+    background-color: #20b2aa;
+    height: 450px;
+    width: 176px;
+}
+
+/* footer elements */
+footer {
+    background-color: #23272a;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.container2 {
+    background-color: #7fffd4;
+    height: 60px;
+    width: 1060px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    background-color: #ffb6c0;
+}
+
+.footer-button {
+    background-color: #ffb6c0;
+}
